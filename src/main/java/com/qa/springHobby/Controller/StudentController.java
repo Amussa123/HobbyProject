@@ -32,6 +32,7 @@ public class StudentController {
 
 		// Create
 		@PostMapping("/create")
+		@CrossOrigin
 		public ResponseEntity<Student> create(@RequestBody Student student) {
 			return new ResponseEntity<Student>(this.service.create(student), HttpStatus.CREATED);
 		}
