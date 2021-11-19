@@ -18,17 +18,18 @@ body {
 
 .box {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 40px;
+    background: #060c21;
     transition: 0.5s;
 }
 
 .box:hover {
-    height: 400px;
+    height: 600px;
 }
 
 .box .imgBox {
@@ -37,12 +38,13 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 10px;
+    padding: 45px;
     box-sizing: border-box;
 }
 
 .box .imgBox img {
-    max-width: 100%;
+    height: 400px;
+    width: 300px;
     opacity: 0.1;
     transition: 0.5s;
 }
@@ -50,6 +52,7 @@ body {
 .box:hover .imgBox img {
     opacity: 1;
 }
+
 
 .box::before {
     content: '';
@@ -75,7 +78,63 @@ body {
 }
 
 .box::before,
-.box::after
-{
-    background: linear-gradient(235deg, #ffffff, #010615, #000607 );
+.box::after {
+    background: linear-gradient(235deg, #ff0000, #010615, #ffffff);
 }
+
+.box:nth-child(3):before,
+.box:nth-child(3):after {
+    background: linear-gradient(235deg, #0011ff, #010615, #ffffff);
+}
+
+.box:nth-child(2):before,
+.box:nth-child(2):after {
+    background: linear-gradient(235deg, #00d111, #010615, #ffffff);
+}
+
+.box:nth-child(4):before,
+.box:nth-child(4):after {
+    background: linear-gradient(235deg, #e6bb00, #010615, #ffffff);
+}
+
+.box .content {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    height: 90px;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.box:hover .content {
+    opacity: 1;
+}
+
+.box .content h2 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 200;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+.box .content h2 span {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 200;
+        line-height: 20px;
+        letter-spacing: 1px;
+    }
+
+.imgBox{
+    width: 600px;
+    height: 600px;
+
+}
+
