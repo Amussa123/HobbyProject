@@ -1,4 +1,4 @@
-'use scrict'
+'use strict'
 
 const postlist = document.querySelector('.post-list');
 let output = ''
