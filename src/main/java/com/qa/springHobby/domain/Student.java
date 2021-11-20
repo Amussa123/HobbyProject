@@ -49,7 +49,7 @@ public class Student {
 		Tuition = tuition;
 		this.school = school;
 	}
-//with ID For the Testing
+//with ID For the Testing.
 
 
 	public Student(long id, String name, String magicType, long age, Long tuition, List<School> school) {
