@@ -48,11 +48,7 @@ import com.qa.springHobby.domain.School;
 				return new ResponseEntity<School>(this.service.getById(id), HttpStatus.OK);
 			}
 			
-			// Custom Query - Get by SchoolName
-			@GetMapping("/getBySchoolName/{SchoolName}")
-			public ResponseEntity<School> getByUsername(@PathVariable String SchoolName) {
-				return new ResponseEntity<School>(this.service.getBySchoolName(SchoolName), HttpStatus.OK);
-			}
+			
 			
 			// Update
 			@PutMapping("/update/{id}")

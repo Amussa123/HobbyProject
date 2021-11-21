@@ -33,11 +33,7 @@ public class SchoolService {
 	}
 	
 
-	public School getBySchoolName(String SchoolName) {
-		return this.repo.findBySchoolName(SchoolName).get();
-	}
 	
-
 	
 	// Update
     public School update(Long id, School school) {

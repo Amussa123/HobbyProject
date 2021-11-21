@@ -49,7 +49,6 @@ public class StudentService {
     	existing.setName(student.getName());
     	existing.setMagicType(student.getMagicType());
     	existing.setAge(student.getAge());
-    	existing.setTuition(student.getTuition());
     	return this.repo.saveAndFlush(existing);
     }
 
