@@ -18,7 +18,6 @@ const renderPosts = (posts) => {posts.forEach(post => {
             output += `<div class="card mt-4 col-md-6 bg-ligt" >
   <div class="card-body" data-id=${post.id}>
     <h5 class="card-title">${post.name}</h5>
-    <h6 class="card-subtitle mb-2 text-muted">${post.tuition}</h6>
      <h6 class="card-subtitle mb-2 text-muted">${post.age}</h6>
     <p class="card-text">${post.magicType}</p>
     <a href="#" class="card-link" id="edit-post">Edit</a>
@@ -85,7 +84,6 @@ postlist.addEventListener('click', (e) => {
             body: JSON.stringify({
                 name: nameValue,
                 age: ageValue,
-                tuition: tuitionValue,
                 magicType: magicTypeValue
             })
         })
@@ -113,7 +111,6 @@ addPostForm.addEventListener('submit', (e) => {
         body: JSON.stringify({
             name: nameValue.value,
             age: ageValue.value,
-            tuition: tuitionValue.value,
             magicType: magicTypeValue.value
         })
     })
