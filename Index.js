@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-'use scrict'
-=======
+
 'use strict'
->>>>>>> Front-end-CrudFunc
+
 
 const postlist = document.querySelector('.post-list');
 let output = ''
