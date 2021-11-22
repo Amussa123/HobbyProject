@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.qa.springHobby.Controller.SchoolController" project="HobbyProject" 
+    file="/HobbyProject/src/main/java/com/qa/springHobby/Controller/SchoolController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="350" x="742" y="81"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.qa.springHobby.exceptions.SchoolNotFoundexcep" project="HobbyProject" 
+    file="/HobbyProject/src/main/java/com/qa/springHobby/exceptions/SchoolNotFoundexcep.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="223" x="479" y="81"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.qa.springHobby.domain.School" project="HobbyProject" 
+    file="/HobbyProject/src/main/java/com/qa/springHobby/domain/School.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="396" width="260" x="2403" y="577"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.qa.springHobby.Controller.StudentController" project="HobbyProject" 
+    file="/HobbyProject/src/main/java/com/qa/springHobby/Controller/StudentController.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="360" x="2003" y="81"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.qa.springHobby.Config.ApplicationConfig" project="HobbyProject" 
+    file="/HobbyProject/src/main/java/com/qa/springHobby/Config/ApplicationConfig.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="96" width="183" x="1132" y="81"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="com.qa.springHobby.domain.Student" project="HobbyProject" 
+    file="/HobbyProject/src/main/java/com/qa/springHobby/domain/Student.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="456" width="336" x="2403" y="81"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="com.qa.springHobby.exceptions.StudentNotFoundexcep" project="HobbyProject" 
+    file="/HobbyProject/src/main/java/com/qa/springHobby/exceptions/StudentNotFoundexcep.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="231" x="1355" y="81"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="8" language="java" name="com.qa.springHobby.repo.SchoolRepo" project="HobbyProject" 
+    file="/HobbyProject/src/main/java/com/qa/springHobby/repo/SchoolRepo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="338" x="742" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="9" language="java" name="com.qa.springHobby.repo.StudentRepo" project="HobbyProject" 
+    file="/HobbyProject/src/main/java/com/qa/springHobby/repo/StudentRepo.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="96" width="295" x="2003" y="1013"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="com.qa.springHobby.Service.SchoolService" project="HobbyProject" 
+    file="/HobbyProject/src/main/java/com/qa/springHobby/Service/SchoolService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="196" width="223" x="742" y="577"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="com.qa.springHobby.Service.StudentService" project="HobbyProject" 
+    file="/HobbyProject/src/main/java/com/qa/springHobby/Service/StudentService.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="216" width="233" x="2003" y="577"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="com.qa.springHobby.SpringHobbyWebProjectApplication" project="HobbyProject" 
+    file="/HobbyProject/src/main/java/com/qa/springHobby/SpringHobbyWebProjectApplication.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="116" width="337" x="1626" y="81"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="13">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="14" name="student"/>      
+      <multiplicity id="15" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="16">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="17" name="service"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="19">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="20" name="service"/>      
+      <multiplicity id="21" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="22">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="23" name="repo"/>      
+      <multiplicity id="24" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="25">    
+    <end type="SOURCE" refId="6" navigable="false">      
+      <attribute id="26" name="school"/>      
+      <multiplicity id="27" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="28">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="29" name="repo"/>      
+      <multiplicity id="30" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
