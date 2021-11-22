@@ -2,6 +2,7 @@ package com.qa.springHobby.Service;
 
 import java.util.List;
 
+
 import org.springframework.stereotype.Service;
 
 import com.qa.springHobby.domain.Student;
@@ -48,7 +49,6 @@ public class StudentService {
     	existing.setName(student.getName());
     	existing.setMagicType(student.getMagicType());
     	existing.setAge(student.getAge());
-    	existing.setTuition(student.getTuition());
     	return this.repo.saveAndFlush(existing);
     }
 
@@ -56,4 +56,5 @@ public class StudentService {
         this.repo.deleteById(id);
         return !this.repo.existsById(id);
     }
+    
 }

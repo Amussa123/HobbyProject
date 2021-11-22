@@ -14,7 +14,7 @@ package com.qa.springHobby.repo;
 	@Repository
 	public interface StudentRepo extends JpaRepository<Student, Long>{
 
-		@Query(value = "SELECT * FROM user WHERE Name = ?1", nativeQuery = true)
+		@Query(value = "SELECT * FROM Student WHERE Name = 1", nativeQuery = true)
 		Optional<Student> findByName(String Name);
 		
 //		@Query(value = "SELECT * FROM user WHERE MagicType = ?1", nativeQuery = true)

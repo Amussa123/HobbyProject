@@ -11,7 +11,7 @@ import com.qa.springHobby.domain.School;
 	@Repository
 	public interface SchoolRepo extends JpaRepository<School, Long>{
 
-	@Query(value = "SELECT * FROM user WHERE SchoolName = ?1", nativeQuery = true)
+	@Query(value = "SELECT * FROM School WHERE SchoolName = 1", nativeQuery = true)
 	Optional<School> findBySchoolName(String SchoolName);
 
 }

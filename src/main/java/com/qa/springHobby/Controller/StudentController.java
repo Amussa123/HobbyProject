@@ -32,6 +32,7 @@ public class StudentController {
 
 		// Create
 		@PostMapping("/create")
+		@CrossOrigin
 		public ResponseEntity<Student> create(@RequestBody Student student) {
 			return new ResponseEntity<Student>(this.service.create(student), HttpStatus.CREATED);
 		}
@@ -48,12 +49,7 @@ public class StudentController {
 			return new ResponseEntity<Student>(this.service.getById(id), HttpStatus.OK);
 		}
 		
-		// Custom Query - Get by name
-		@GetMapping("/getByName/{Name}")
-		public ResponseEntity<Student> getByUsername(@PathVariable String Name) {
-			return new ResponseEntity<Student>(this.service.getByName(Name), HttpStatus.OK);
-		}
-		
+
 		// Update
 		@PutMapping("/update/{id}")
 		public ResponseEntity<Student> update(@PathVariable Long id, @RequestBody Student student) {
