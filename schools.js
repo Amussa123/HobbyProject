@@ -13,6 +13,10 @@ const renderPosts = (posts) => {posts.forEach(post => {
   <div class="card-body" data-id=${post.id}>
     <h5 class="card-title">${post.schoolName}</h5>
     <p class="card-text">${post.magicClass}</p>
+<<<<<<< HEAD
+=======
+     <p class="card-text">${post.StudentId}</p>
+>>>>>>> front-end
     <a href="#" class="card-link" id="edit-post">Edit</a>
     <a href="#" class="card-link" id="delete-post">Delete</a>
   </div>

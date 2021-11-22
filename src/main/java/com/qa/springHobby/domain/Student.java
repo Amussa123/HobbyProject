@@ -44,9 +44,10 @@ public class Student {
 		Name = name;
 		MagicType = magicType;
 		Age = age;
+	
 		this.school = school;
 	}
-//with ID For the Testing.
+//with ID For the Testing
 
 
 	public Student(long id, String name, String magicType, long age, List<School> school) {
@@ -55,15 +56,10 @@ public class Student {
 		Name = name;
 		MagicType = magicType;
 		Age = age;
+	
 		this.school = school;
 	}
 	
-	
-	
-	
-
-	
-
 
 	public long getId() {
 		return id;
@@ -103,6 +99,11 @@ public class Student {
 	public void setAge(long age) {
 		Age = age;
 	}
+
+
+	
+
+
 
 
 	public List<School> getSchool() {
@@ -149,6 +150,7 @@ public class Student {
 				return false;
 		} else if (!Name.equals(other.Name))
 			return false;
+	
 		if (id != other.id)
 			return false;
 		if (school == null) {
@@ -158,7 +160,5 @@ public class Student {
 			return false;
 		return true;
 	}
-
-}
-
 	
+	}
