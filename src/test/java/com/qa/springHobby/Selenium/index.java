@@ -1,10 +1,6 @@
 package com.qa.springHobby.Selenium;
 
-<<<<<<< HEAD
-public class index {
 
-}
-=======
 
 	import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -60,8 +56,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 		void teardown() {
 			driver.close();
 		}
-		
+	}
 		
 
-	}
->>>>>>> front-end
+
