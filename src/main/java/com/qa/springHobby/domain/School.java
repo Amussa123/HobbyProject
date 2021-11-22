@@ -1,15 +1,11 @@
 package com.qa.springHobby.domain;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
-
-import com.fasterxml.jackson.annotation.JsonIgnore;
 
 
 @Entity
@@ -25,11 +21,17 @@ public class School {
 	@Column(nullable = false)
 	private String MagicClass;
 	
-	@JsonIgnore
-	@ManyToOne(cascade = {CascadeType.ALL})
+	@ManyToOne
 	private Student student;
 
 	public School() {}
+
+	public School(String schoolName, String magicClass, Student student) {
+		super();
+		SchoolName = schoolName;
+		MagicClass = magicClass;
+		this.student = student;
+	}
 
 	public School(long id, String schoolName, String magicClass, Student student) {
 		super();
@@ -38,15 +40,6 @@ public class School {
 		MagicClass = magicClass;
 		this.student = student;
 	}
-
-	public School(String schoolName, String magicClass, Student student) {
-		super();
-		SchoolName = schoolName;
-		MagicClass = magicClass;
-		this.student = student;
-	}
-		
-	
 
 	public long getId() {
 		return id;
@@ -120,5 +113,4 @@ public class School {
 		return true;
 	}
 
-	
 }
