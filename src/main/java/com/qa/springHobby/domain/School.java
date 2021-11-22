@@ -1,5 +1,6 @@
 package com.qa.springHobby.domain;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -21,7 +22,7 @@ public class School {
 	@Column(nullable = false)
 	private String MagicClass;
 	
-	@ManyToOne
+	@ManyToOne(cascade = {CascadeType.ALL})
 	private Student student;
 
 	public School() {}
